@@ -178,6 +178,7 @@
 		19% { opacity: 0 }
 		100% { opacity: 0 }
 	}
+	
 	@media screen and (max-width: 1140px) { 
 		.cb-slideshow li div h3 { font-size: 140px }
 	}
@@ -216,7 +217,14 @@
 	}
 
 	@media screen and (min-width: 737px) and (max-width: 1200px) {
-
+		/* .logoIcon{
+			width:5%; 
+			position: absolute; 
+			margin: 0 20px 0 30px;
+			left:0;
+			top:0.1em;
+			
+		} */
 		.container.\31 25\25 {
 			width: 100%;
 			max-width: 1500px;
@@ -1367,7 +1375,7 @@
 
 		ul.links li {
 			display: inline;
-			border-left: solid 1px #d0d0d0;
+			/* border-left: solid 1px #d0d0d0; */
 			padding-left: 1em;
 			margin-left: 1em;
 		}
@@ -2646,7 +2654,7 @@
 					letter-spacing: 2px;
 				}
 				#headerNav {
-					padding: 6em 0 4em 0;
+					padding: 2em 0 2.5em 0;
 				}
 	
 					#headerNav h1 {
@@ -2658,6 +2666,21 @@
 					#headerNav p {
 						margin: 1.25em 0 0 0;
 						letter-spacing: 2px;
+					}
+					.logocontainer{
+						justify-content: center;
+						text-align: center;
+					}
+					.logoIcon{
+						text-align: center;
+						width:15%; 
+						/* clear: both; */
+						/* align:center; */
+						/* position: absolute;  */
+						margin: 0 50px 0 160px;
+						/* left:0; */
+						/* top:0.1em; */
+						
 					}
 
 		/* Nav */
